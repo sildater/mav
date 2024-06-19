@@ -102,7 +102,7 @@ def record_video(
 
 def record_midi(
         dt_string,
-        out_path_midi=r"C:\Users\silva\Documents\repos\ZEDLES\test_and_develop",
+        out_path_midi,
         number=0,
         midi_device='seq 2'):
     recorder = Recorder(midi_device,debug=True)
